@@ -1,14 +1,25 @@
-.gradle
-/build/
-
-# Ignore Gradle GUI config
+.gradle/
+.idea/
+.DS_Store
+.newt-cache
+*.iml
+*.ipr
+*.iws
 gradle-app.setting
+classes
+app/build
+build
+sdk/tmp
+velocity.log
+mvrdata_bundle_*
+out/
+package-lock.json
+sdk/inception/node_modules/
+ui/src/main/webapp/node_modules/
+._npm/
+._tmp/
+ui/src/main/webapp/release.html
+ui/src/main/webapp/test/unit-tests/node_modules/
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Cache of project
-.gradletasknamecache
-
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+# Metatron decrypted secrets
+**/metatron/decrypted
